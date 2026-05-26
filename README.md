@@ -2,12 +2,19 @@
 
 **Master Data Structures & Algorithms and Crack Technical Interviews**
 
+[![GitHub repo size](https://img.shields.io/github/repo-size/Algo-Infinity-Verse/Algo-Infinity-Verse)](https://github.com/Algo-Infinity-Verse/Algo-Infinity-Verse)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Algo-Infinity-Verse/Algo-Infinity-Verse)](https://github.com/Algo-Infinity-Verse/Algo-Infinity-Verse)
+
 A modern, interactive web application for learning and practicing DSA concepts with a gamified learning experience.
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
-![HTML5](https://im.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://html.spec.whatwg.org/)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://www.w3.org/TR/CSS/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://www.ecma-international.org/)
+
+[![GitHub issues](https://img.shields.io/github/issues/Algo-Infinity-Verse/Algo-Infinity-Verse)](https://github.com/Algo-Infinity-Verse/Algo-Infinity-Verse/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/Algo-Infinity-Verse/Algo-Infinity-Verse)](https://github.com/Algo-Infinity-Verse/Algo-Infinity-Verse/pulls)
+[![Contributors](https://img.shields.io/github/contributors/Algo-Infinity-Verse/Algo-Infinity-Verse)](https://github.com/Algo-Infinity-Verse/Algo-Infinity-Verse/graphs/contributors)
 
 ---
 
@@ -313,13 +320,29 @@ Potential features for expansion:
 
 ---
 
-## Contributing
+## 🤝 Community & Contributing
 
-Contributions are welcome! Feel free to:
-- Report bugs
-- Suggest new features
-- Submit pull requests
-- Improve documentation
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+
+### How to Contribute
+
+1. **Fork** the repository
+2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
+3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
+4. **Push** to the branch (`git push origin feature/amazing-feature`)
+5. **Open** a Pull Request
+
+### Code of Conduct
+
+Be respectful and constructive. See our [Code of Conduct](CODE_OF_CONDUCT.md) for guidelines.
+
+---
+
+## 📞 Support
+
+- 📧 Email: opensource@algo-infinity-verse.org
+- 💬 Discord: [Join our server](https://discord.gg/algo-infinity)
+- 🐛 Report bugs via [GitHub Issues](https://github.com/Algo-Infinity-Verse/Algo-Infinity-Verse/issues)
 
 ---
 
