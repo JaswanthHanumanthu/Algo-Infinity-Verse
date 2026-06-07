@@ -714,6 +714,7 @@ const dsaTopics = [
       "Product Except Self",
       "Spiral Matrix",
       "Best Time to Buy and Sell Stock",
+      "Move Zeroes",
     ],
   },
   {
@@ -953,6 +954,21 @@ const practiceProblems = [
       "0 ≤ prices[i] ≤ 10⁴",
     ],
     followUp: "Can you solve it in O(n) time and O(1) space?",
+  },
+  {
+    id: 17,
+    title: "Move Zeroes",
+    difficulty: "easy",
+    tags: ["Arrays", "Two Pointers"],
+    acceptance: "60.1%",
+    category: "arrays",
+    description:
+      "Given an integer array nums, move all 0s to the end of it while maintaining the relative order of the non-zero elements. You must do this in-place without making a copy of the array.",
+    constraints: [
+      "1 ≤ nums.length ≤ 10⁴",
+      "−2³¹ ≤ nums[i] ≤ 2³¹ − 1",
+    ],
+    followUp: "Can you minimize the total number of operations?",
   },
 ];
 
@@ -3664,6 +3680,12 @@ function generateExamples(problem) {
         <strong>Example 3:</strong><br>Input: prices = [2,4,1]<br>Output: 2<br>Explanation: Buy on day 1 (price = 2) and sell on day 2 (price = 4), profit = 2.<br><br>
         <strong>Edge Cases:</strong><br>• Single element → 0 (can't sell)<br>• All same prices → 0<br>• Minimum at the very end → 0<br><br>
         <strong>Follow-up:</strong> Can you solve it in O(n) time and O(1) space using a greedy approach (track the minimum price so far)?`,
+
+    16: `<strong>Example 1:</strong><br>Input: nums = [0,1,0,3,12]<br>Output: [1,3,12,0,0]<br>Explanation: All non-zero elements keep their relative order and zeroes move to the end.<br><br>
+        <strong>Example 2:</strong><br>Input: nums = [0]<br>Output: [0]<br><br>
+        <strong>Example 3:</strong><br>Input: nums = [1,2,3]<br>Output: [1,2,3]<br>Explanation: No zeroes — array is unchanged.<br><br>
+        <strong>Edge Cases:</strong><br>• All zeroes → same array<br>• No zeroes → unchanged<br>• Single element → unchanged<br><br>
+        <strong>Follow-up:</strong> Can you do it with a single pass using the two-pointer technique to minimize writes?`,
   };
   return (
     examples[problem.id] || "<strong>Example:</strong><br>Solve this problem"
