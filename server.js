@@ -440,6 +440,7 @@ function resolveStaticPath(pathname) {
     "/community": "community.html",
     "/python-learning": "python-learning.html",
     "/javascript-learning": "javascript-learning.html",
+    "/dbms-learning": "dbms-learning.html",
     "/powerbi-learning": "powerbi-learning.html",
     "/feedback": "feedback.html",
     "/feedback.html": "feedback.html",
